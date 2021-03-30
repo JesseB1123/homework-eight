@@ -1,0 +1,188 @@
+* {
+    margin: 0;
+    padding 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    margin-bottom: 16px;
+}
+
+/* navbar styling */
+nav {
+    background-color: rgb(90, 153, 224);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+}
+
+nav .logo img {
+    height: 75px;
+    filter: invert(100%);
+    
+}
+
+nav .links {
+    width: 500px;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav .links a {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+}
+
+/* main body styling */
+#app .one {
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../assets/hero-1.jpeg);
+}
+#app .two {
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../assets/home-2.jpeg);
+}
+#app .three {
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../assets/about-1.jpeg);
+}
+#app .four {
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../assets/about-2.jpeg);
+}
+#app .five {
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../assets/about-3.jpeg);
+}
+#app .six {
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../assets/services-1.jpeg);
+}
+#app .seven {
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../assets/contact-1.jpeg);
+}
+
+#app .hero {
+    height: 500px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+
+#app .hero-text {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 50px;
+    text-align: center;
+    font-weight: 600;
+}
+
+#app .title {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    font-weight: 600;
+    margin: 0 auto;
+    width: fit-content;
+    border-bottom: 1px solid black;
+    margin-bottom: 20px;
+}
+
+#app .text {
+    max-width: 720px;
+    margin: 0 auto;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    margin-bottom: 20px;
+    display: flex;
+}
+
+.quote {
+    max-width: 720px;
+    margin: 0 auto;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    margin-bottom: 20px;
+    text-align: right;
+}
+
+.column {
+    width: 50%;
+}
+
+.column p {
+    padding-right: 5px;
+}
+
+.column img {
+    width: 100%;
+}
+
+.service {
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../assets/services-2.jpg);
+    max-width: 720px;
+    height: 200px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.service-text {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-weight: 600;
+    font-size: 40px;
+    text-align: center;
+}
+
+
+
+button {
+    margin: 0 auto;
+    background-color: rgb(90, 153, 224);
+    border: none;
+    color: white;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 100px;
+    width: 250px;
+    margin-bottom: 20px;
+}
+
+/* footer styling */
+footer {
+    background-color: rgb(90, 153, 224);
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 100px;
+}
+
+footer .logo img {
+    width: 230px;
+    filter: invert(100%);
+}
+
+footer .copyright {
+    font-family: Arial, Helvetica, sans-serif;
+    width: 230px;
+    text-align: center;
+    color: white;
+}
+
+footer .socials {
+    width: 230px;
+    text-align: center;
+    color: white;
+}
